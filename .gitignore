@@ -1,0 +1,60 @@
+# ================================
+# GITIGNORE - PORTFÓLIO
+# ================================
+
+# Arquivos do sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Arquivos do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Pastas de dependências (se adicionar npm/node futuramente)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Arquivos de ambiente (se adicionar variáveis de ambiente)
+.env
+.env.local
+.env.*.local
+
+# Pasta de build/dist (se adicionar bundler futuramente)
+dist/
+build/
+
+# Arquivos compactados
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+.vercel
